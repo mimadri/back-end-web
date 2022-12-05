@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API users endpoints GET api/users/me when authentication is correct and currentUser is setted body matches snapshot 1`] = `
+Object {
+  "data": Object {
+    "attributes": Object {
+      "email": "test@gmail.com",
+      "id": 1,
+      "password": "testPassword",
+      "username": "Test",
+    },
+    "id": "1",
+    "type": "users",
+  },
+}
+`;
+
+exports[`API users endpoints POST api/users User data is valid response body matches snapshot 1`] = `
+Object {
+  "data": Object {
+    "attributes": Object {
+      "email": "test-user@gmail.com",
+      "id": 2,
+      "password": "testPassword",
+      "username": "newUser",
+    },
+    "id": "2",
+    "type": "users",
+  },
+}
+`;
+
+exports[`API users endpoints POST api/users/:user_id/reports report data is valid response body matches snapshot 1`] = `
+Object {
+  "data": Object {
+    "attributes": Object {
+      "content": "Test of the content of report",
+      "model": "user",
+      "modelId": 4,
+      "userId": 1,
+    },
+    "id": "1",
+    "type": "requests",
+  },
+}
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin API routes GET /api/admin/reports when recibe all the properties of the database body matches snapshot 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "attributes": Object {
+        "content": "Test of a report to commentary",
+        "model": "Comment",
+        "modelId": 1,
+        "userId": 3,
+      },
+      "id": "1",
+      "type": "reports",
+    },
+    Object {
+      "attributes": Object {
+        "content": "Test of a report to commentary",
+        "model": "Comment",
+        "modelId": 2,
+        "userId": 3,
+      },
+      "id": "2",
+      "type": "reports",
+    },
+    Object {
+      "attributes": Object {
+        "content": "Test of a report to user",
+        "model": "user",
+        "modelId": 4,
+        "userId": 3,
+      },
+      "id": "3",
+      "type": "reports",
+    },
+  ],
+}
+`;

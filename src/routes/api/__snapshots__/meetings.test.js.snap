@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meeting API routes GET /api/meetings/:id when passed id corresponds to and existing meeting body matches snapshot 1`] = `
+Object {
+  "data": Object {
+    "attributes": Object {
+      "date": "2021-01-12",
+      "hour": "12:30 pm",
+    },
+    "id": "1",
+    "type": "meetings",
+  },
+}
+`;

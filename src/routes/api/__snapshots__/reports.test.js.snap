@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reports API routes POST /api/comments/:comment_id/reports report data is valid response body matches snapshot 1`] = `
+Object {
+  "data": Object {
+    "attributes": Object {
+      "content": "Test of a report to comment",
+      "model": "Comment",
+      "modelId": 1,
+      "userId": 1,
+    },
+    "id": "1",
+    "type": "reports",
+  },
+}
+`;

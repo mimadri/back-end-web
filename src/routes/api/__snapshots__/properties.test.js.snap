@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Property API routes GET /api/properties/ when recibe all the properties of the database body matches snapshot 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "attributes": Object {
+        "description": "this is a test of description",
+        "location": "Test location",
+        "name": "Test",
+        "price": 10000000,
+        "state": "on sale",
+      },
+      "id": "1",
+      "type": "properties",
+    },
+    Object {
+      "attributes": Object {
+        "description": "this is a test of description one",
+        "location": "Test location one",
+        "name": "Test one",
+        "price": 10000000,
+        "state": "on sale",
+      },
+      "id": "2",
+      "type": "properties",
+    },
+    Object {
+      "attributes": Object {
+        "description": "this is a test of description two",
+        "location": "Test location two",
+        "name": "Test two",
+        "price": 20000000,
+        "state": "on sale",
+      },
+      "id": "3",
+      "type": "properties",
+    },
+  ],
+}
+`;
+
+exports[`Property API routes GET /api/properties/:id when passed id corresponds to and existing property body matches snapshot 1`] = `
+Object {
+  "data": Object {
+    "attributes": Object {
+      "description": "this is a test of description",
+      "location": "Test location",
+      "name": "Test",
+      "price": 10000000,
+      "state": "on sale",
+    },
+    "id": "1",
+    "type": "properties",
+  },
+}
+`;
+
+exports[`Property API routes POST /api/properties property data is valid response body matches snapshot 1`] = `
+Object {
+  "data": Object {
+    "attributes": Object {
+      "description": "this is a test of description one",
+      "location": "Test location one",
+      "name": "Test one",
+      "price": 10000000,
+      "state": "on sale",
+    },
+    "id": "4",
+    "type": "properties",
+  },
+}
+`;
